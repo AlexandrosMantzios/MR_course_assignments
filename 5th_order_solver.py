@@ -1,3 +1,22 @@
+'''
+***************************************************************************
+5th order polynomial path solver
+***************************************************************************
+Author: Alexandros Mantzios
+Credits: Modern Robotics: Mechanics, Planning, and Control. Code Library
+Email: alexandrosmantzios@gmail.com
+Date: February 2022
+***************************************************************************
+Language: Python
+Required library: numpy, modern_robotics core library
+***************************************************************************
+'''
+
+'''
+*** IMPORTS ***
+'''
+
+
 import sympy as sp
 
 
