@@ -1,3 +1,20 @@
+'''
+***************************************************************************
+A* Motion planner for bot from Modern Robotics Course
+***************************************************************************
+Author: Alexandros Mantzios
+Credits: Modern Robotics: Mechanics, Planning, and Control. Code Library
+Email: alexandrosmantzios@gmail.com
+Date: February 2022
+***************************************************************************
+Language: Python
+***************************************************************************
+'''
+
+'''
+*** IMPORTS ***
+'''
+
 import os.path
 import csv
 from collections import defaultdict

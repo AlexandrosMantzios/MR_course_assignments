@@ -28,7 +28,7 @@ PROJECT_DIR = Path(__file__).parent
    
 
 class UR5robot:
-
+    """Class of UR5 Robot """
     def __init__(self, 
                  W1=0.109,
                  W2=0.089, 
@@ -224,11 +224,11 @@ def IKinBodyIterates(screw_axes_body:np.ndarray,
 
     return (thetalist, not err)
 
-        
+
 
 if __name__ == "__main__":
 
-    ur5=UR5robot()
+ ur5=UR5robot()
 
 # initial guess of joint angles - Needs to be close to initial T matrix 
 theta_guess= np.array([-0.421,-2.160,4.685,1.204,3.157,1.765])
